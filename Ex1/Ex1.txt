@@ -1,0 +1,9 @@
+Exercise
+1. Write a program that allocates two integer vectors a_host and b_host with 1‘000‘000 elements on the host side.
+2. Initialize the elements of a_host with a_host[i]=i.
+3. Now allocate device memory with the vectors a_device, b_device with the same size.
+4. Use the error checking function from the lecture to handle possible CUDA errors.
+5. Transfer a_host to a_device, copy a_device to b_device and copy b_device back
+to b_host. Ensure that a_host and b_host have the same data.
+Do not forget to free the allocated memory.
+Hint: You do not need a kernel yet, because all copy tasks can be done with cudaMemcpy
