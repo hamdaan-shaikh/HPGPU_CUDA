@@ -1,0 +1,11 @@
+{
+    "cmake.sourceDirectory": "/home/hash843d/zih-home/Downloads/HPGPU_CUDA/Ex3/lab-reduction",
+    "files.associations": {
+        "array": "cpp",
+        "bitset": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "utility": "cpp",
+        "*.tcc": "cpp"
+    }
+}

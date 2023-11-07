@@ -1,0 +1,17 @@
+We allocate on the heap memory instead of the stack (i.e. we do int* abc instead of int abc) because, by default, the stack memorz is limited to 8192 KB. Last time we could assign 2 vectors of 1 million because, 2 vectors barely fit as each vector is almostt 4 KB
+We can check the stack siye with the command ulimit -a
+
+in this lab we want to assign 3 vectors of 1Mill so the stack would overflow
+
+so we can overocome this bz tzping in the terminal
+ulimit -s unlimited    this will remove the limits on the stack memory
+
+or we can use int* instead of int and allocate memory on heap instead of stack
+
+
+
+second point
+
+we can serialize the parallel kernel program by running it on only one block and one thread
+
+if we do that we can have print statements and use it to debug on the GPU
